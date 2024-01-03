@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-size: 20px;
+            font-weight: 200;
+        }
+
+        .info {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div>
+        <p>
+            Assign "onchange" event in an input field.
+        </p>
+        <p>Enter a number: <input type="text" id="change"></p>
+    </div>
+    <script>
+        let a = document.querySelector('#change');
+        a.addEventListener('change', ()=>
+        {
+            a.value = a.value.toUpperCase();
+        })
+    </script>
+    <p>When we leave, write text in the  input field, function is triggered which transfer input text to upperCase.</p> -->
+
+<div>
+    <select>
+        <option>car</option>
+        <option>bike</option>
+        <option>plane</option>
+        <option>ship</option>
+        
+    </select>
+    <script>
+        let g = document.querySelector('select').addEventListener('change',()=>{
+            alert("You select option:")
+        })
+    </script>
+</div>
+</body>
+
+</html>
